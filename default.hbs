@@ -16,6 +16,17 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/style.min.css"/>
 
     {{ghost_head}}
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-29116636-1', 'dasroot.net');
+  ga('send', 'pageview');
+
+</script>
 </head>
 <body class="{{body_class}}">
 
@@ -41,22 +52,22 @@
         <div class="get-connected">
             <h3>Connect with me</h3>
             <p>
-                <a class="icon-gplus-circled" href="#" target="_blank"></a>
-                <a class="icon-twitter-circled" href="#" target="_blank"></a>
-                <a class="icon-mail-circled" href="#" target="_blank"></a>
-                <a class="icon-github-circled" href="#" target="_blank"></a>
-                <a class="icon-linkedin-circled" href="#" target="_blank"></a>
+                <a class="icon-gplus-circled" href="https://plus.google.com/+CharlesButlertheNinja/" target="_blank"></a>
+                <a class="icon-twitter-circled" href="https://twitter.com/lazypower" target="_blank"></a>
+                <a class="icon-github-circled" href="https://github.com/chuckbutler" target="_blank"></a>
+                <a class="icon-linkedin-circled" href="http://www.linkedin.com/pub/charles-butler/28/748/74" target="_blank"></a>
             </p>
         </div>
         <div class="about">
             <h3>About author</h3>
-            <p>Lorem ipsum dolor Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+            <p>{{posts.[0].author.bio}}</p>
         </div>
         <div class="copybox">
             <p>Copyright &copy; 2013 <a href="/">{{@blog.title}}</a></p>
             <p class="poweredby">
                 Proudly powered by <a href="http://www.ghost.org" target="_blank">GHOST</a>.<br/>
-                Theme <a href="https://github.com/viktorbezdek/ghostentista">ghostentista</a> by <a href="http://www.viktorbezdek.cz">Viktor Bezdek</a>.
+                <!-- I'm keeping you in the source Viktor - just not publicly visible 
+                   Theme <a href="https://github.com/viktorbezdek/ghostentista">ghostentista</a> by <a href="http://www.viktorbezdek.cz">Viktor Bezdek</a>. -->
             </p>
         </div>
     </div>
