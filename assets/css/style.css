@@ -692,8 +692,8 @@ body.no-fixed-elements main.content {
   position: fixed;
   top: -5rem;
   height: 4rem;
-  background: -webkit-linear-gradient(top, rgba(35, 83, 138, 0.9) 0%, rgba(52, 130, 173, 0.9) 100%);
-  background: linear-gradient(to bottom, rgba(35, 83, 138, 0.9) 0%, rgba(52, 130, 173, 0.9) 100%);
+  background: -webkit-linear-gradient(top, rgba(221,72,20, 0.9) 0%, rgba(52, 130, 173, 0.9) 100%);
+  background: linear-gradient(to bottom, rgba(221,72,20, 0.9) 0%, rgba(52, 130, 173, 0.9) 100%);
   z-index: 100;
 }
 
@@ -749,7 +749,7 @@ header#site-head {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background-color: rgba(255, 255, 255, 0.91);
+  background-color: rgba(221,72,20, 0.9);
   position: fixed;
   top: 0;
   z-index: 1;
