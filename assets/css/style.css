@@ -807,9 +807,9 @@ header#site-head h1 {
   padding: 0;
   text-align: center;
   color: #fff;
-  font-size: 6em;
+  font-size: 4em;
   padding-bottom: 0.1em;
-  padding-top: 0.35em;
+  padding-top: 0.65em;
 }
 
 header#site-head h1.image-logo {
